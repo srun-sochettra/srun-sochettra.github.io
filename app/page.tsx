@@ -56,7 +56,7 @@ export default function Home() {
               </p>
               <p className="identity__support">
                 {site.title} in {site.location}, focused on backend systems,
-                modern web applications, AI-powered tools, and experimental software.
+                web and mobile applications, AI-powered tools, and experimental software.
               </p>
               <div className="identity__actions">
                 <a className="text-action" href="#work">View selected work</a>
@@ -203,7 +203,7 @@ export default function Home() {
             <p className="field-notation">Archive</p>
             <div>
               <h2 id="archive-title">Systems on record</h2>
-              <p>Seven systems across backend engineering, applied AI, interfaces, hardware, and computer vision.</p>
+              <p>{projects.length} systems across backend engineering, applied AI, web and mobile interfaces, hardware, and computer vision.</p>
             </div>
           </div>
           <div className="project-stage" data-reveal="ledger">
@@ -244,8 +244,8 @@ export default function Home() {
         <div className="publication-grid contact-sheet__grid">
           <p className="field-notation">Contact</p>
           <div className="contact-sheet__main">
-            <h2 id="contact-title">Looking for a backend or full-stack intern?</h2>
-            <p>Java, Spring Boot, PostgreSQL, React, and TypeScript — with project evidence available below.</p>
+            <h2 id="contact-title">Hiring a junior software engineer?</h2>
+            <p>Java, Spring Boot, PostgreSQL, Next.js, TypeScript, and Flutter — with project evidence above.</p>
             <nav aria-label="Contact links">
               <a href={mailtoHref}>Email</a>
               <a href={site.github} target="_blank" rel="noopener noreferrer">GitHub ↗</a>

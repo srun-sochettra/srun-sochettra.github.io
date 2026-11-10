@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { site } from "@/data/portfolio";
+import { projects, site } from "@/data/portfolio";
 
 const links = [
   { href: "#work", label: "Work", code: "P-03" },
-  { href: "#index", label: "Projects", code: "06 SYS" },
+  { href: "#index", label: "Projects", code: `${String(projects.length - 1).padStart(2, "0")} SYS` },
   { href: "#profile", label: "Profile", code: "PROFILE" },
   { href: "#contact", label: "Contact", code: "CONTACT" },
 ] as const;

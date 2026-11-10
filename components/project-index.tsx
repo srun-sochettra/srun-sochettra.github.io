@@ -34,6 +34,16 @@ const profiles: Readonly<Record<string, SystemProfile>> = {
     stages: ["Input", "Window", "State", "App", "Render"],
     insight: "Desktop interactions become composable browser systems.",
   },
+  roomly: {
+    signal: "booking",
+    stages: ["Flutter", "Request", "Laravel", "Booking", "Confirm"],
+    insight: "One API contract serves the mobile client and the Postman suite.",
+  },
+  disconime: {
+    signal: "mobile",
+    stages: ["Request", "Jikan API", "Parse", "State", "Screen"],
+    insight: "A public API becomes a cross-platform mobile experience.",
+  },
   "rfid-access-control": {
     signal: "credential",
     stages: ["Card", "Reader", "Check", "Decision", "OLED"],

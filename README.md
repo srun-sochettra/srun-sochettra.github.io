@@ -2,14 +2,14 @@
 
 **A software-engineering portfolio built around project evidence, interactive case studies and explicit limitations.**
 
-[View the portfolio](https://chettra.is-a.dev) · [GitHub profile](https://github.com/SRUN-Sochettra)
+[View the portfolio](https://chettra.is-a.dev) · [GitHub profile](https://github.com/srun-sochettra)
 
 This repository contains the Next.js portfolio itself, not the backend systems, AI providers or hardware projects it describes. Its case-study experiences are authored browser illustrations, not live connections to those systems.
 
 ## Inside the portfolio
 
 - An editorial homepage with EggScan as the flagship and a linked project catalogue.
-- Seven data-driven case studies covering document research, client work, developer tooling, backend APIs, browser interfaces, embedded systems and computer vision.
+- Nine data-driven case studies covering document research, client work, developer tooling, backend APIs, browser interfaces, mobile, embedded systems and computer vision.
 - Project-specific interactive walkthroughs with selectable stages and scroll-driven presentation.
 - A desktop case navigator with persisted positioning, section tracking and retraction.
 - Generated metadata, Open Graph image, robots and sitemap routes.
